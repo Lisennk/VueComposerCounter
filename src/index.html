@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Downloads Counter</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet">
+<body id="app">
     <div class="container">
         <div class="counter">
-            <div class="number">0</div>
+            <div class="number">
+                {{ totalDownloads }}
+            </div>
             <div class="description">
                 PHP frameworks have been downloaded while you were watching this page
             </div>
