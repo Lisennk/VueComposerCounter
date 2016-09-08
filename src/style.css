@@ -26,4 +26,10 @@ body {
 
 .description {
     font-size: 30px;
+    line-height: 40px;
+}
+
+i {
+    cursor: help;
+    border-bottom: dotted 2px gray;
 }
