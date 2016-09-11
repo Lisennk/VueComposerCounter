@@ -1,6 +1,14 @@
 # :tiger: Vue.js Demo 
 
-Vue.js demo app: count PHP framework downloads with Composer API. 
+Vue.js demo app: count PHP framework downloads with Composer API.
+
+Currently supports:
+* Symfony
+* Llaravel
+* Yii 2
+* Codeigniter
+* Cakephp
+* Slim
 
 ## :gem: Installation 
 ```bash
