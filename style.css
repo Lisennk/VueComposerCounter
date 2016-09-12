@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+    height: 80%;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    font-family: serif;
+    color: #444;
+    text-align: center;
+}
+
+.number {
+    font-size: 80px;
+    padding-bottom: 35px;
+}
+
+.description {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+i {
+    cursor: help;
+    border-bottom: dotted 2px gray;
+}
+
+.footer {
+    text-align: center;
+}
+
+a {
+    color: #7B7B7B;
+    text-decoration: none;
+}
